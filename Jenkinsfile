@@ -2,7 +2,7 @@ pipeline {
 
   environment {
     dockerimagename = "bravinwasike/react-app"
-    dockerImage = "getintodevops/jenkins-withdocker:lts"
+    dockerImage = ""
   }
 
   agent any

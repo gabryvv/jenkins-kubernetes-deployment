@@ -11,9 +11,9 @@ COPY package-lock.json .
 
 #install all the React.js application dependencies
 RUN npm i
-USER 0
-RUN install_packages docker
-USER 1001
+RUN sudo apt-get update
+RUN sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+RUN sudo docker run hello-world
 <!-- Copy the remaining React.js application folders and files from the `jenkins-kubernetes-deployment` local folder to the Docker react-app working directory -->
 COPY . .
 

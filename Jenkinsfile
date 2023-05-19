@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "bravinwasike/react-app"
+    dockerimagename = "node:19-alpine3.16"
     dockerImage = ""
   }
 

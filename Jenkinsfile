@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "node:19-alpine3.16"
+    dockerimagename = "gabryvv/react-app"
     dockerImage = ""
   }
 

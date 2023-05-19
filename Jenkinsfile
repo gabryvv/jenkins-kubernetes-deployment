@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "gabryvv/react-app"
+    dockerimagename = "gabryv/react-app"
     dockerImage = ""
   }
 
